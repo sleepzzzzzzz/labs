@@ -1,0 +1,11 @@
+commit 9727c7e37652b24b430582c2a627333bf93d719d (HEAD -> master)
+Author: mihail <po3etkatb@gmail.com>
+Date:   Tue Feb 18 16:40:51 2020 +0300
+
+    add status.txt
+
+commit 375c88c7e1cc1a5240969910c43eae3b9b804344
+Author: mihail <po3etkatb@gmail.com>
+Date:   Tue Feb 18 16:32:10 2020 +0300
+
+    add .gitignore
