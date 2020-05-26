@@ -1,0 +1,326 @@
+{
+	"info": {
+		"_postman_id": "c74a2885-5e81-49c9-b7b2-6dc5d0507de3",
+		"name": "task 4 collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://makeup-api.herokuapp.com/api/v1/products.json?brand=alva&product_type=eyeshadow&product_category=cream",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://makeup-api.herokuapp.com/api/v1/products.json?brand=alva&product_type=eyeshadow&product_category=cream",
+					"protocol": "http",
+					"host": [
+						"makeup-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"products.json"
+					],
+					"query": [
+						{
+							"key": "brand",
+							"value": "alva"
+						},
+						{
+							"key": "product_type",
+							"value": "eyeshadow"
+						},
+						{
+							"key": "product_category",
+							"value": "cream"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://makeup-api.herokuapp.com/api/v1/products.json?brand=alva&=",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://makeup-api.herokuapp.com/api/v1/products.json?brand=alva&=",
+					"protocol": "http",
+					"host": [
+						"makeup-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"products.json"
+					],
+					"query": [
+						{
+							"key": "brand",
+							"value": "alva"
+						},
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl&product_type=eyeliner",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl&product_type=eyeliner",
+					"protocol": "http",
+					"host": [
+						"makeup-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"products.json"
+					],
+					"query": [
+						{
+							"key": "brand",
+							"value": "covergirl"
+						},
+						{
+							"key": "product_type",
+							"value": "eyeliner"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://anapioficeandfire.com/api/characters/420",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://anapioficeandfire.com/api/characters/420",
+					"protocol": "https",
+					"host": [
+						"anapioficeandfire",
+						"com"
+					],
+					"path": [
+						"api",
+						"characters",
+						"420"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://anapioficeandfire.com/api/characters/582",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://anapioficeandfire.com/api/characters/582",
+					"protocol": "https",
+					"host": [
+						"anapioficeandfire",
+						"com"
+					],
+					"path": [
+						"api",
+						"characters",
+						"582"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://anapioficeandfire.com/api/characters/583",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://anapioficeandfire.com/api/characters/583",
+					"protocol": "https",
+					"host": [
+						"anapioficeandfire",
+						"com"
+					],
+					"path": [
+						"api",
+						"characters",
+						"583"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_14073.jpg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_14073.jpg",
+					"protocol": "https",
+					"host": [
+						"images",
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"breeds",
+						"spaniel-cocker",
+						"n02102318_14073.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dog.ceo/api/breeds/image/random?",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breeds/image/random?",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breeds",
+						"image",
+						"random"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null,
+							"description": "\tBased on the Stanford Dogs Dataset"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://images.dog.ceo/breeds/hound-ibizan/n02091244_2871.jpg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://images.dog.ceo/breeds/hound-ibizan/n02091244_2871.jpg",
+					"protocol": "https",
+					"host": [
+						"images",
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"breeds",
+						"hound-ibizan",
+						"n02091244_2871.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dog.ceo/api/breeds/image/random?",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breeds/image/random?",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breeds",
+						"image",
+						"random"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null,
+							"description": "\tBased on the Stanford Dogs Dataset"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://images.dog.ceo/breeds/hound-english/n02089973_2608.jpg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://images.dog.ceo/breeds/hound-english/n02089973_2608.jpg",
+					"protocol": "https",
+					"host": [
+						"images",
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"breeds",
+						"hound-english",
+						"n02089973_2608.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dog.ceo/api/breeds/image/random?24323=23",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breeds/image/random?24323=23",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breeds",
+						"image",
+						"random"
+					],
+					"query": [
+						{
+							"key": "24323",
+							"value": "23",
+							"description": "\tBased on the Stanford Dogs Dataset"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
